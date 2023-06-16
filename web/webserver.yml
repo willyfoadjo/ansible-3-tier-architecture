@@ -1,0 +1,7 @@
+--- # master playbook to install apache
+
+ 
+ - hosts: webserver
+   become: yes
+   roles:
+     - ~/project1/roles/apacheinstall
