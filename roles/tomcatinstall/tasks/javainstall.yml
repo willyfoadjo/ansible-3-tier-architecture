@@ -1,0 +1,9 @@
+
+ - name: download open JDK
+   yum:
+     name: openjdk-8-jre-headless
+     update_cache: yes
+     state: present
+
+ - name: check if Java is available
+   shell: java -version

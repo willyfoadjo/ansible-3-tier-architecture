@@ -1,0 +1,4 @@
+ 
+ - name: move file to the /opt/tomcat8 directory
+   become_user: tomcat
+   shell: "mv /opt/tomcat8/apache*/* /opt/tomcat8"

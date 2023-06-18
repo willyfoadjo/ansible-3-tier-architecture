@@ -1,0 +1,9 @@
+
+ - name: create group
+   group:
+     name: tomcat
+     state: present
+
+ - name: create user
+   user: tomcat
+   state: present

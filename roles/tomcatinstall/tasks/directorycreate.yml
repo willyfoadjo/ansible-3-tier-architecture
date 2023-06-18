@@ -1,0 +1,8 @@
+
+ - name: create a Directory /opt/tomcat8
+   file:
+     path: /opt/tomcat8
+     state: directory
+     mode: 0755
+     owner: tomcat
+     group: tomcat
