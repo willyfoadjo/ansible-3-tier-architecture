@@ -5,3 +5,5 @@
    become: yes
    roles:
      - ~/project1/roles/apacheinstall
+     - ~/project1/roles/firewalldinstall
+     - ~/project1/roles/portopen

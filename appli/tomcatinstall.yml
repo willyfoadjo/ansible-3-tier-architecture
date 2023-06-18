@@ -1,0 +1,7 @@
+---
+
+ - name: master playbooks to install tomcat
+   hosts: applicationserver
+   become: yes
+   roles:
+
